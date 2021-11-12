@@ -1,0 +1,63 @@
+.header {
+    min-height: 100vh;
+    background-image: url('../assets/mmad.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;    
+}
+
+.header::after {
+    content: '';
+    position: absolute;
+    background-color: #111;
+    opacity: 0.8;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.header__hero {
+    left: 0;
+    right: 0;
+    width: 90%;
+    z-index: 9;
+    margin: 0 auto;
+    margin-top: var(--navbar-height);
+    height: 60rem;
+    position: absolute;
+    font-family: var(--inter-font);
+    font-size: 5rem;
+    text-align: center;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.header__hero span {
+    font-weight: 900;
+    background: linear-gradient(to right, #218fde 0%, #009e37 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.header__hero__image {
+    width: 40rem;
+}
+
+@media screen and (min-width: 900px) {
+    .header__hero {
+        height: 80rem;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        align-items: center;
+        font-size: 7rem;
+        text-align: left;
+        gap: 2rem;
+    }
+    .header__hero__image {
+        width: 100%;
+    }
+}
