@@ -10,7 +10,7 @@ const Navigation = () => {
                 <ul className={styles['navigation__menu--desktop']}>
                     <li>Nosotros</li>
                     <li>Servicios</li>
-                    <li>Contacto</li>
+                    <li className={styles['navigation__menu__contact-btn']} >Contactanos</li>
                 </ul>
                 
                 <div className={styles['navigation__menu--mobile']}>

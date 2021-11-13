@@ -65,4 +65,10 @@
         font-weight: 600;
         text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
     }
+
+    .navigation__menu__contact-btn {
+        padding: .5rem 1rem;
+        border-radius: .7rem;
+        background-color: rgb(24, 163, 59);
+    }
 }
