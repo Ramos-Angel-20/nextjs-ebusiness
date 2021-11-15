@@ -6,6 +6,12 @@
     min-width: 100%;
     z-index: 99;
     max-width: var(--navbar-height);
+    transition: background-color 150ms;
+}
+
+.scrolled {
+    background-color: rgb(25, 30, 56);
+    box-shadow: 0px 3px 5px rgba(0,0,0,0.5);
 }
 
 .navigation__content {

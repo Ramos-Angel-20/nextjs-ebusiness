@@ -19,6 +19,9 @@ html {
 }
 
 body {
+
+  --inter-font: 'Inter', sans-serif;
+  color: #fff;
   font-size: 1.6rem;
   min-height: 100vh;
 }
