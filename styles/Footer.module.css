@@ -1,6 +1,36 @@
 .footer {
     border-top: 1px solid lightgray;   
-    min-height: 10rem;
+    min-height: 20rem;
     color: #fff;
     background-color: rgb(25, 30, 56);
+    font-family: var(--inter-font);
+}
+
+.footer__content {
+    max-width: 2000px;
+    width: 90%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer h2 {
+    font-size: 3rem;
+    font-weight: 300;
+}
+
+.footer__title span {
+    font-weight: 900;
+    background: linear-gradient(to right, #218fde 0%, #009e37 100%);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+}
+
+.footer__icons {
+    width: 20rem;
+    display: flex;
+    justify-content: space-between;
+    font-size: 3rem;
 }
