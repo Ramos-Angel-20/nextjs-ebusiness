@@ -1,0 +1,130 @@
+.contact {
+    min-height: 100vh;
+    width: 90%;
+    max-width: 2000px;
+    margin: 0 auto;
+    font-family: var(--inter-font);
+}
+
+.contact h2 {
+    font-size: var(--title-fz);
+    color: #000;
+    text-align: center;
+    margin: 4rem 0;
+}
+
+.contact__grid {
+    
+}
+
+@media screen and (min-width: 1200px) {
+    .contact__grid {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 3rem;
+    }   
+}
+
+.contact__form {
+    border-radius: 1rem;
+    height: 70rem;
+    padding: 2rem;
+}
+
+.contact__form div {
+    margin: 2rem 0;
+}
+
+.contact__form p {
+    font-size: 3rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.contact__form input {
+    width: 100%;
+    font-size: 2.8rem;
+    border-radius: .8rem;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    padding: 2rem 1rem;
+    height: 5rem;
+}
+
+.contact__form textarea {
+    font-size: 2.8rem;
+    color: #000;
+    font-family: var(--inter-font);
+    width: 100%;
+    border-radius: .8rem;
+    background-color: lightgray;
+    border: none;
+    outline: none;
+    resize: none;
+    height: 15rem;
+    display: block;
+    padding: 2rem 1rem;
+}
+
+.contact__form button {
+    background-color: rgb(62, 187, 62);
+    color: #fff;
+    font-weight: 600;
+    font-size: 2.6rem;
+    padding: 2rem 6rem;
+    border: none;
+    border-radius: .8rem;
+    text-align: center;
+}
+
+.contact__text p{
+    font-size: 6rem;
+    font-weight: 800;
+    color: #000;
+}
+
+.contact__info__grid {
+    margin-top: 4rem;
+    
+}
+
+.contact__info__item {
+    border-radius: 3rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    margin: 2rem 0;
+    padding: 1rem;
+    transition: all 150ms;
+    cursor: pointer;
+}
+
+.contact__info__item:hover {
+    transform: scale(1.05);
+    box-shadow: 3px 3px 4px rgba(0,0,0,0.5);
+}
+
+.contact__info__item p {
+    font-size: 1.8rem;
+    color: #fff;
+    text-align: center;
+    text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+}
+
+.contact__info__item:nth-child(1) {
+    background-color: #564D80;
+    color: #e9584d;
+}
+
+.contact__info__item:nth-child(2) {
+    background-color: #04E762;
+    color: rgb(250, 204, 119);
+}
+
+.contact__info__item:nth-child(3) {
+    background-color: #FF8A5B;
+    color: grey;
+}
